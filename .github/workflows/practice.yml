@@ -1,17 +1,14 @@
 name: My First Workflow
 
 on:
-push:
-branches:
-- main
+   push:
+      branches:
+             - main
 
 jobs:
-practice:
-runs-on: ubuntu-latest
-
-```
+    practice:
+     runs-on: ubuntu-latest
+     
 steps:
-  - name: Print a message
-    run: echo "Hello Kaif! My workflow is working."
-```
-
+ - name: Print a message
+run: echo "Hello Kaif! My workflow is working."
